@@ -1,0 +1,207 @@
+
+.h1-singup,
+.h1-login {
+  display: inline-block;
+  color: #111111;
+  font-family: "Lora";
+  font-weight: bolder;
+  font-size: 30px;
+  line-height: 48px;
+  line-height: 120%;
+  letter-spacing: 1px;
+  /* border: 1px solid blue; */
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 75px;
+  margin-bottom: 10px;
+}
+
+
+.signup-form {
+  /* border: 1px solid greenyellow; */
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-family: "Lora";
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+.input-signup,
+.input-login {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 500px;
+  height: 40px;
+  margin: 2px 0px 10px;
+}
+
+
+.text-area-signup {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 500px;
+  height: 100px;
+  margin: 1px 0px 20px;
+}
+
+
+.div-signup-btns {
+  margin: 5px 0px 13px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid 1px orange;
+  /* width: 500px;
+}
+
+
+/* .div-signup-btns>div {
+  border: 1px solid pink;
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+} */
+
+
+/* .register-btn {
+  margin: 10px 0px 30px;
+  z-index: 99999999;
+} */
+
+
+/* .radio-btn {
+  color: #18A0FB;
+  font-size: 1rem;
+  font-weight: 500;
+  /* border: 1px solid red; */
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  z-index: 9999999;
+  padding-left: 60px;
+} */
+
+
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #cdd6de;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  /* border: 1px solid rgba(0, 0, 0, 0.2)); */
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #18A0FB;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  /* border: 1px solid rgba(0, 0, 0, 0.2); */
+}
+
+
+
+
+.endpage-jorno-logo {
+  /* border: 1px solid hotpink; */
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+
+/* .img-input{
+text-decoration: none;
+border: none;
+color: #4d515654;
+width: 500px;
+} */
+
+.file {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+  z-index: 9999999;
+}
+
+/* .file-input label {
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background: linear-gradient(40deg, #ff6ec4, #7873f5);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform .2s ease-out;
+} */
+
+.file-input label {
+  display: block;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F8F8F8;
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  /* border-radius: 6px; */
+  width: 130px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 18px;
+  line-height: 100%;
+  letter-spacing: 0.4px;
+  z-index: 9999999;
+}
+
+
+
+
+.register-error-div {
+  /* border: 1px solid orange; */
+  width: 500px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.create-blogpost-btn {
+  background-color: #111111;
+  color: #F8F8F8;
+  border: 1px solid #111111;
+  border-radius: 6px;
+  width: 130px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 18px;
+  line-height: 100%;
+  letter-spacing: 0.4px;
+  margin: 35px 0px 20px 0px;
+  font-family: Helvetica;
+}
+
